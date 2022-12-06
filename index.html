@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIODATA</title>
+    <link rel="stylesheet" href="bio.css">
+</head>
+<body>
+    <br>
+    <h1 style="text-align:center">BIO DATA</h1>
+    <br>
+    <form action='#' method='GET' >
+        <fieldset>
+        <legend>Personal Information</legend>
+        <br>
+            <label for="FirstName">First Name:</label>
+            <input type="text" id="FirstName" placeholder="First Name" required>
+            <br>
+            <br>
+            <label for="Last Name">Last Name:</label>
+            <input type="text" id="LastName" placeholder="Last Name" required>
+            <br>
+            <br>
+            <label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="others">Others</label>
+            <input type="radio" name="gender" id="others"> 
+            <br>
+            <br>
+            <label for="mail">E-mail ID:</label>
+            <input type="email" id="mail" placeholder="Enter your mail ID" required>
+            <br>
+            <br>
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" name="DOB" id="DOB" required>
+            <br><br>
+            <label for="mob">Mobile No:</label>
+            <input type="tel" id="mob" placeholder="+91" list="defaulttel"  required>
+            <br><br>
+            <label for="height">Height:</label>
+            <input type="number" id="height" required>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Professional Qualification</legend>
+            <br>
+            <label for="occ">Occupation:</label>
+            <input type="text" id="occ" required>
+            <br>
+            <br>
+            
+            <label for="degree">Degree:</label>
+            <select name="select" id="degree">
+                <option value="select">select</option>
+                <option value="select">Doctor</option>
+                <option value="select">Engineer</option>
+                <option value="select">Banker</option>
+                <option value="select">Others</option>
+            </select>
+            <br>
+            <br>
+            <label for="pic">Upload picture:</label>
+            <input type="file" name="pic" id="pic">
+            <br>
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <br>
+            <br>
+
+        </fieldset>
+        </form>
+
+                  
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
